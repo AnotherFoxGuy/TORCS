@@ -1,7 +1,0 @@
-#! /bin/bash
-
-name=ole-road-1
-category=road
-
-trackgen -a -E 1 -n $name -c $category
-
