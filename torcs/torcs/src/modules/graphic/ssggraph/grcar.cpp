@@ -550,6 +550,9 @@ grInitCar(tCarElt *car)
 	grAddCarlight(car, lightTypeNum, lightPos, GfParmGetNum(handle, path, PRM_SIZE, NULL, 0.2));
     }
 
+	grLinkCarlights(car);
+
+
     GfOut("[gr] Init(%d) car %s for driver %s index %d\n", index, car->_carName, car->_modName, car->_driverIndex);
 
     grFilePath = (char*)malloc(4096);
