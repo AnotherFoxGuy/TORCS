@@ -2,7 +2,7 @@
 #
 #    file                 : Makefile
 #    created              : Sun Feb 18 21:02:29 /etc/localtime 2001
-#    copyright            : (C) 2000 by Eric Espié                        
+#    copyright            : (C) 2000 by Eric Espiï¿½                        
 #    email                : Eric.Espie@torcs.org   
 #    version              : $Id$                                  
 #
@@ -23,9 +23,9 @@ DATA      = $(CAR).xml readme.txt \
             $(CAR).rgb tex-wheel.rgb shadow.rgb \
             $(shell find *.acc -maxdepth 0 -type f -print)
 
-data-cars-extra_PKGFILES	= $(DATA)
+data_PKGFILES	= $(DATA)
 
-data-cars-extra_PKGDIR		= $(DATADIR)
+data_PKGDIR		= $(DATADIR)
 
 include ${MAKE_DEFAULT}
 
