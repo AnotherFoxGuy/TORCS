@@ -2,7 +2,7 @@
 
     file        : mouseconfig.cpp
     created     : Thu Mar 13 21:27:03 CET 2003
-    copyright   : (C) 2003 by Eric Espié                        
+    copyright   : (C) 2003 by Eric Espiï¿½                        
     email       : eric.espie@torcs.org   
     version     : $Id$                                  
 
@@ -25,7 +25,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
 #include <tgfclient.h>
 #include <track.h>

@@ -19,7 +19,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 #include <tgfclient.h>
 #include <track.h>
 #include <robot.h>
@@ -578,15 +577,16 @@ ChangeReverse(void *vdelta)
 static void
 ChangeTrans(void * /* dummy */)
 {
-    if (curPlayer == NULL) {
-	return;
-    }
-    if (curPlayer->transmission != HM_VAL_AUTO) {
-	curPlayer->transmission = HM_VAL_AUTO;
-    } else {
-	curPlayer->transmission = HM_VAL_MANUAL;
-    }
-    refreshEditVal();
+	if (curPlayer == NULL) {
+		return;
+	}
+	
+	if (strcmp(curPlayer->transmission,HM_VAL_AUTO) != 0) {
+		curPlayer->transmission = HM_VAL_AUTO;
+	} else {
+		curPlayer->transmission = HM_VAL_MANUAL;
+	}
+	refreshEditVal();
 }
 
 void *
