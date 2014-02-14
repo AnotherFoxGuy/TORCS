@@ -35,8 +35,6 @@
 
 #define HM_SECT_DRVPREF		"Preferences/Drivers"
 
-#define HM_ATT_CONTROL		"control"
-
 #define HM_ATT_UP_SHFT		"up shift"
 #define HM_ATT_DN_SHFT		"down shift"
 #define HM_ATT_ASR_CMD		"ASR cmd"
