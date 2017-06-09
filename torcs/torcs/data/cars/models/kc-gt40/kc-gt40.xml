@@ -374,6 +374,8 @@
     <attnum name="stiffness" val="20"/>
     <attnum name="dynamic friction" unit="%" val="100"/>
     <attnum name="mu" val="1.5"/>
+    <attnum name="ideal temperature" unit="K" val="343.15"/>
+    <attnum name="hysteresis" val="1.2"/>
   </section>
 
   <section name="Front Left Wheel">
@@ -388,6 +390,8 @@
     <attnum name="stiffness" val="20"/>
     <attnum name="dynamic friction" unit="%" val="100"/>
     <attnum name="mu" val="1.5"/>
+    <attnum name="ideal temperature" unit="K" val="343.15"/>
+    <attnum name="hysteresis" val="1.2"/>
   </section>
 
   <section name="Rear Right Wheel">
@@ -402,6 +406,8 @@
     <attnum name="stiffness" val="20"/>
     <attnum name="dynamic friction" unit="%" val="100"/>
     <attnum name="mu" val="1.5"/>
+    <attnum name="ideal temperature" unit="K" val="343.15"/>
+    <attnum name="hysteresis" val="1.2"/>
   </section>
 
   <section name="Rear Left Wheel">
@@ -416,6 +422,8 @@
     <attnum name="stiffness" val="20"/>
     <attnum name="dynamic friction" unit="%" val="100"/>
     <attnum name="mu" val="1.5"/>
+    <attnum name="ideal temperature" unit="K" val="343.15"/>
+    <attnum name="hysteresis" val="1.2"/>
   </section>
 
   <section name="Front Anti-Roll Bar">
